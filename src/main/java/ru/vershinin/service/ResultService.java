@@ -21,6 +21,7 @@ public class ResultService {
    public AddResponse add(int a, int b) {
         AddResponse addResponse = soapConnector.additions(a, b);
         return addResponse;
+
     }
 
     public SubtractResponse subtract(int a, int b){
